@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de Ingreso</title>
+</head>
+<body>
+    <h1>Datos de Ingreso</h1>
+
+    <form action="Ejercicio.html" method="post">
+
+        <div>
+            <label>Nombre: </label>
+            <input type="text" name="nombre" 
+            placeholder="Nombre..." >
+        </div>
+
+        <div>
+            <label>Email: </label>
+            <input type="text" name="correo" 
+            placeholder="email..." >
+        </div>
+
+        <div>
+            <label>clave: *</label>
+            <input type="password" name="clave" 
+            placeholder="clave de acceso..." >
+        </div>
+
+        <div>
+            <label>fecha Nacimiento: </label>
+            <input type="date" name="dob">
+        </div>
+        
+        <p>Gustos :</p>
+        <select name="Gustos">
+            <option>Musica</option>
+            <option>Teatro</option>
+            <option>Cine</option>
+            <option>Prefiero no Responder</option>
+        </select>
+
+        <div>
+            <input type="checkbox" name="actualizaciones" 
+            id="actualizaciones" checked >
+            <label for="actualizaciones">Quiero que me contacten por correo!</label>
+        </div>
+
+        <div>
+            <p>mensaje:</p>
+            <textarea name="comment" cols="20" rows="3">Mensaje</textarea>
+        </div>
+
+        <input type="submit" value="Enviar Mensaje" >
+
+    </form>
+</body>
+</html>
